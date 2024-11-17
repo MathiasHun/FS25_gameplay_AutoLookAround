@@ -2,9 +2,9 @@
 
 ![image](https://github.com/MathiasHun/FS25_gameplay_AutoLookAround/blob/main/icon_autoLookAround.png)
 
-**[Download the latest developer version](https://farmsim.bltfm.hu/infusions/bltfmhu_downloads_center/downloads.php?cat_id=2&dlc_id=2)** (the file FS22_gameplay_AutoLookAround.zip)
+**[Download the latest developer version](https://farmsim.bltfm.hu/infusions/bltfmhu_downloads_center/downloads.php?cat_id=4&dlc_id=3)** (the file FS25_gameplay_AutoLookAround.zip)
 
-**[FarmSim Website](https://farmsim.bltfm.hu/infusions/bltfmhu_downloads_center/downloads.php)**
+**[FarmSim Website](https://farmsim.bltfm.hu/infusions/bltfmhu_downloads_center/downloads.php?cat_id=3)**
 
 ## Description
 
