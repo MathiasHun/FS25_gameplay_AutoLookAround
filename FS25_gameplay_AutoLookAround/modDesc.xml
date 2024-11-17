@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="92">
+    <author>MathiasHun</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>AutoLook Around</en>
+        <de>Automatischer Rundumblick</de>
+        <fr>Regard Automatique</fr>
+        <hu>Automatikus Körültekintés</hu>
+    </title>
+    <description>
+        <en><![CDATA[The Automatic Look Around mod enables the driver to quickly check their surroundings using the interior camera, especially near intersections. The camera automatically pans left and right to inform the driver about potential traffic and obstacles.
+
+The mod functions only in interior view and can be activated by default with Alt or mouse 5.
+
+For error reporting, please visit the following page: https://github.com/MathiasHun/FS25_gameplay_AutoLookAround
+        ]]></en>
+        <de><![CDATA[Der Mod Automatischer Rundumblick ermöglicht es dem Fahrer, mithilfe der Innenkamera schnell die Umgebung zu überprüfen, insbesondere in der Nähe von Kreuzungen. Die Kamera schwenkt automatisch nach links und rechts, um den Fahrer über potenziellen Verkehr und Hindernisse zu informieren.
+
+Der Mod funktioniert nur in der Innenansicht und kann standardmäßig mit Alt oder mäus 5. aktiviert werden.
+
+Für Fehlerberichte besuchen Sie bitte die folgende Seite: https://github.com/MathiasHun/FS25_gameplay_AutoLookAround
+        ]]></de>
+        <fr><![CDATA[Le mod Regard Automatique permet au conducteur de vérifier rapidement les environs à l’aide de la caméra intérieure, en particulier à proximité des intersections. La caméra pivote automatiquement vers la gauche et la droite pour informer le conducteur des éventuels obstacles et du trafic.
+
+Le mod fonctionne uniquement en vue intérieure et peut être activé par défaut avec Alt ou la souris 5.
+
+Pour signaler un problème, veuillez visiter la page suivante : https://github.com/MathiasHun/FS25_gameplay_AutoLookAround
+        ]]></fr>
+        <hu><![CDATA[Az Automatikus Körültekintés mód lehetővé teszi, hogy a járművezető a belső kamera használatával gyorsan ellenőrizze környezetét, különösen kereszteződések közelében. A kamera automatikusan balra és jobbra fordul, hogy tájékoztassa a vezetőt az esetleges forgalomról és akadályokról.
+
+A mód csak belső nézetben működik, és alapértelmezés szerint Alt vagy az egér 5. gombbal aktiválható.
+
+Hibajelentéshez kérjük, látogasson el a következő oldalra: https://github.com/MathiasHun/FS25_gameplay_AutoLookAround
+        ]]></hu>
+    </description>
+    <iconFilename>icon_autoLookAround.dds</iconFilename>
+
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="AutoLookAroundREGISTER.lua"/>
+    </extraSourceFiles>
+
+    <actions>
+        <action name="AUTOLOOKAROUND" category="VEHICLE" axisType="HALF"/>
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="AUTOLOOKAROUND">
+            <binding device="KB_MOUSE_DEFAULT" input="Key_lalt"/>
+			<binding device="KB_MOUSE_DEFAULT" input="MOUSE_BUTTON_X2"/>
+        </actionBinding>
+    </inputBinding>
+
+    <l10n>
+        <text name="input_AUTOLOOKAROUND">
+            <en>Start Look Around</en>
+            <de>Umsehen starten</de>
+            <fr>Démarrer la surveillance</fr>
+            <hu>Körültekintés indítása</hu>
+        </text>
+    </l10n>
+
+</modDesc>
